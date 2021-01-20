@@ -56,15 +56,31 @@
 		8C493E9125B836B2007F335E /* ChuckNorris */ = {
 			isa = PBXGroup;
 			children = (
-				8C493E9225B836B2007F335E /* AppDelegate.swift */,
-				8C493E9425B836B2007F335E /* SceneDelegate.swift */,
+				8C493EA725B836C9007F335E /* App */,
 				8C493E9625B836B2007F335E /* ViewController.swift */,
-				8C493E9825B836B2007F335E /* Main.storyboard */,
-				8C493E9B25B836B5007F335E /* Assets.xcassets */,
-				8C493E9D25B836B5007F335E /* LaunchScreen.storyboard */,
-				8C493EA025B836B5007F335E /* Info.plist */,
+				8C493EAA25B836D7007F335E /* Assets */,
 			);
 			path = ChuckNorris;
+			sourceTree = "<group>";
+		};
+		8C493EA725B836C9007F335E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C493E9225B836B2007F335E /* AppDelegate.swift */,
+				8C493E9425B836B2007F335E /* SceneDelegate.swift */,
+				8C493E9825B836B2007F335E /* Main.storyboard */,
+				8C493EA025B836B5007F335E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8C493EAA25B836D7007F335E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8C493E9B25B836B5007F335E /* Assets.xcassets */,
+				8C493E9D25B836B5007F335E /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BAMVNW77;
-				INFOPLIST_FILE = ChuckNorris/Info.plist;
+				INFOPLIST_FILE = ChuckNorris/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48BAMVNW77;
-				INFOPLIST_FILE = ChuckNorris/Info.plist;
+				INFOPLIST_FILE = ChuckNorris/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
