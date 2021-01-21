@@ -25,6 +25,7 @@
 		8C6F688725B840B2005B5BDF /* ExSearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F688625B840B2005B5BDF /* ExSearchDelegate.swift */; };
 		8C9E892025B88C2C00FCE878 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E891F25B88C2C00FCE878 /* Jokes.swift */; };
 		8C9E892425B8A82E00FCE878 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E892325B8A82E00FCE878 /* JSONParsing.swift */; };
+		8C9E892C25B95BE600FCE878 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E892B25B95BE600FCE878 /* Notification+Name.swift */; };
 		8CAA25CE25B868AA00954789 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA25CD25B868AA00954789 /* SearchViewModel.swift */; };
 		8CAA25D625B8752700954789 /* ExTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA25D525B8752700954789 /* ExTextFieldDelegate.swift */; };
 		8CAA25DA25B878B400954789 /* Networkservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA25D925B878B400954789 /* Networkservice.swift */; };
@@ -52,6 +53,7 @@
 		8C6F688625B840B2005B5BDF /* ExSearchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExSearchDelegate.swift; sourceTree = "<group>"; };
 		8C9E891F25B88C2C00FCE878 /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
 		8C9E892325B8A82E00FCE878 /* JSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		8C9E892B25B95BE600FCE878 /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
 		8CAA25CD25B868AA00954789 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		8CAA25D525B8752700954789 /* ExTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExTextFieldDelegate.swift; sourceTree = "<group>"; };
 		8CAA25D925B878B400954789 /* Networkservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkservice.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				8C6F687725B83CA9005B5BDF /* Extentions + UIView.swift */,
 				8C6F687A25B83D19005B5BDF /* Extentions + OptionalType.swift */,
+				8C9E892B25B95BE600FCE878 /* Notification+Name.swift */,
 			);
 			path = Extetions;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				8C493E9525B836B2007F335E /* SceneDelegate.swift in Sources */,
 				8C6F687F25B83FA6005B5BDF /* SearchTableViewCell.swift in Sources */,
 				8CAA25D625B8752700954789 /* ExTextFieldDelegate.swift in Sources */,
+				8C9E892C25B95BE600FCE878 /* Notification+Name.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

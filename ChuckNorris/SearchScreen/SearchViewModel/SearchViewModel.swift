@@ -21,13 +21,13 @@ class SearchViewModel {
     
     weak var delegate: TrackDelegate?
     var networkService = NetworkService()
-//    var albums = [Album]() {
-//        didSet {
-//            let userInfo: [String:ViewModel] = ["ViewModel":self]
-//
-//            NotificationCenter.default.post(name: Notification.Name.AlbumNotification, object: nil, userInfo: userInfo)
-//        }
-//    }
+    var jokes = [Joke]() {
+        didSet {
+            let userInfo: [String:SearchViewModel] = ["SearchViewModel":self]
+
+            NotificationCenter.default.post(name: Notification.Name.AlbumNotification, object: nil, userInfo: userInfo)
+        }
+    }
 //
 //    var tracks = [Track]() {
 //            didSet {
